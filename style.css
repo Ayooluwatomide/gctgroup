@@ -158,7 +158,7 @@ a{
 }
 
 .section-padding{
-    padding:6rem 3rem ;
+    padding:6rem 4rem ;
 }
 
 
@@ -230,23 +230,30 @@ a{
 /* visiona and mission styling */
 .vision-container{
     background-color: var(--color-lightGrey);
-    /* padding: 4rem; */
-    text-align: center; 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%; /* Left: 30%, Center: 40%, Right: 30% */
+    gap: 2rem;
 }
 
-.vision,.mission{
+.vision-header, .mission-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.vision-text, .mission-text {
+    line-height: 2em;
+}
+
+.vision, .mission{
     width: 20.82rem;
-    padding-top:2.7rem ;
-}
-
-.vision-header,.mission-header{
-    margin-top: 2rem;
 }
 
 .vision-container .icon{
-    font-size: 40px;
+    /* font-size: 40px; */
     color: var(--color-gold);
-    position: absolute;
+    /* position: absolute; */
 }
 
 .icon-a .icon{
