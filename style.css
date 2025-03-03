@@ -169,6 +169,10 @@ a{
     padding: 4rem ;
 }
 
+.choose-us-padding{
+    padding: 4rem 0 4rem 4rem;
+}
+
 .box-img{
     width: 550px;
     height: 550px;
@@ -417,10 +421,7 @@ a{
 
 .division{
     align-items: flex-start;
-    /* background-color: white; */
     padding: 20px;
-    /* border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: center;
 }
 
@@ -441,7 +442,6 @@ a{
  font-size: 16px;
  line-height: 26px;
  color: #52525B;
- /* max-width: 330px; */
  text-align: center;
 }
 
@@ -449,10 +449,7 @@ a{
 /* ends here */
 
 /* choose section */
-.choose-container{
-    padding: 3rem ;
-    max-width: 100%; 
-}
+
 .choose-container h2{
     text-align: center;
     margin-bottom: 3rem;
@@ -469,14 +466,23 @@ a{
     display: flex;
     column-gap: 2rem;
     width: 97%;
-    margin: 1.4rem auto;
+    /* margin: 1.4rem auto; */
 
 }
 
 .choose-text{
     display: grid;
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns:repeat(2, 1fr) ;
     column-gap: 2rem;
+}
+
+.choose-text .text{
+    width: 85%;
+    line-height: 1.8em;
+}
+
+.choose-text .text p{
+    padding: 1.5em 0;
 }
 
 .choose-content .image{
