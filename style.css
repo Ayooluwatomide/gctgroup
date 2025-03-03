@@ -567,23 +567,36 @@ body{
   display: block;
 }
 
+.vision-header, .mission-header {
+    padding-top: 2rem;
+}
+
+.vision, .mission{
+  width: 100%;
+}
+
+.vision-img img{
+    width: 60%;
+    padding-top: 3em;
+}
+
 .choose-content .image{
     display: none;
 }
 
 .value-a {
-    left: 10%;
+    left: 5%;
     bottom:20px; 
 }
 
 .value-b{ 
     left: 40%;
-    bottom:-20px;
+    bottom:-10px;
 }
 
 .value-c {
     left: 60%; 
-    bottom: 200px;
+    bottom: 180px;
 }
 
 .value-d {
