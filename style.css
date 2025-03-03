@@ -105,6 +105,7 @@ a{
     cursor: pointer;
     gap: 4px;
     font-size: 1.4rem;
+    color: var(--color-gold);
   }
   
   .hamburger .bar {
@@ -264,10 +265,6 @@ a{
 /*                              ends here                                 */
 
 /*                              goal section                              */
-.goal-container{
-   
-}
-
 .goal{
     width: 30%;
     padding: 2.5em;
@@ -534,6 +531,15 @@ body{
     width: 100%;
 }
 
+.nav-container{
+    justify-content: space-between;
+}
+
+
+.text-description{
+    margin: 6rem 0 0 6em;
+}
+
 .space{
     padding-top: 2rem;
 }
@@ -587,12 +593,12 @@ body{
 }
 
 .value-c {
-    left: 60%; 
+    left: 55%; 
     bottom: 180px;
 }
 
 .value-d {
-    left: 85%; 
+    left: 80%; 
     bottom: 150px;
 }
 
