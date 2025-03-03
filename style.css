@@ -270,6 +270,12 @@ a{
     padding: 2.5em;
 }
 
+.goal-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .layer-a {
     display: flex;
     justify-content: space-between;
@@ -315,6 +321,11 @@ a{
 .wave-length{
     /* padding: 1rem 0; */
     position: relative;
+}
+
+.goal-icon-size{
+    width: 51px; 
+    height: 50px; 
 }
 .value-design{
     position: relative;
