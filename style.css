@@ -166,7 +166,7 @@ a{
 }
 
 .section-padding{
-    padding:6rem 4rem ;
+    padding: 4rem ;
 }
 
 .box-img{
@@ -336,9 +336,9 @@ a{
 /* value  */
 
 .values-container{
-    padding-top: 1.2rem ;
+    /* padding-top: 1.2rem ;
     padding-bottom:4rem ;
-    background-color:#F9F9F9 ;
+    background-color:#F9F9F9 ; */
 }
 
 .wave-length{
