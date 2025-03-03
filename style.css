@@ -96,7 +96,7 @@ a{
 .links:hover{
     /* color:#b37c1e; */
     border-bottom: 2px solid var(--color-gold);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Hamburger Styling */
